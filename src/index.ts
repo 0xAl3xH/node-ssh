@@ -28,6 +28,7 @@ export type Config = ConnectConfig & {
   password?: string
   privateKey?: string
   privateKeyPath?: string
+  cert?: string
   tryKeyboard?: boolean
   onKeyboardInteractive?: (
     name: string,
